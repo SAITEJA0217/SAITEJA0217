@@ -1,509 +1,464 @@
 <!--
-  README.md
-  Premium GitHub Profile for SAITEJA0217
-  Dark Futuristic • Black + Neon Blue • Glassmorphism • Recruiter-friendly
-  Built with GitHub Markdown + supported HTML only.
+  ============================================================
+  SAITEJA REDDY KARKA — GITHUB PROFILE README
+  Theme: Black + Neon Blue / Glassmorphism / Recruiter-Friendly
+  ============================================================
 -->
 
-<!-- =========================
-     1. Custom SVG Banner
-     ========================= -->
 <div align="center">
-  <!-- SVG: Custom Dark Futuristic Banner with Glassmorphism -->
-  <svg width="100%" height="220" viewBox="0 0 1200 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SAITEJA0217 - Dark Futuristic Banner">
-    <defs>
-      <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
-        <stop offset="0%" stop-color="#001219" />
-        <stop offset="45%" stop-color="#000a12" />
-        <stop offset="100%" stop-color="#000000" />
-      </linearGradient>
 
-      <linearGradient id="neon" x1="0" x2="1">
-        <stop offset="0%" stop-color="#00e6ff" stop-opacity="0.95"/>
-        <stop offset="60%" stop-color="#007bff" stop-opacity="0.85"/>
-        <stop offset="100%" stop-color="#004cff" stop-opacity="0.8"/>
-      </linearGradient>
+<!-- ============ 1. CUSTOM SVG HERO BANNER ============ -->
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIyNjAiIHZpZXdCb3g9IjAgMCAxMDAwIDI2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDUwODE2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBhMTEyOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZ2xvdzEiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjUwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEJGRkYiIHN0b3Atb3BhY2l0eT0iMC41NSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMEJGRkYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZ2xvdzIiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjUwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzOEJERjgiIHN0b3Atb3BhY2l0eT0iMC4zNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOEJERjgiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idGV4dEdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Y4RkFGQyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3REQzRkMiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8ZmlsdGVyIGlkPSJibHVyMSI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMzUiLz48L2ZpbHRlcj4KICAgIDxmaWx0ZXIgaWQ9ImJsdXIyIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyNSIvPjwvZmlsdGVyPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjEwMDAiIGhlaWdodD0iMjYwIiBmaWxsPSJ1cmwoI2JnKSIvPgoKICA8Y2lyY2xlIGN4PSI4NjAiIGN5PSI2MCIgcj0iMTQwIiBmaWxsPSJ1cmwoI2dsb3cxKSIgZmlsdGVyPSJ1cmwoI2JsdXIxKSIvPgogIDxjaXJjbGUgY3g9IjEyMCIgY3k9IjIyMCIgcj0iMTIwIiBmaWxsPSJ1cmwoI2dsb3cyKSIgZmlsdGVyPSJ1cmwoI2JsdXIyKSIvPgoKICA8ZyBzdHJva2U9IiMxMjNhNWUiIHN0cm9rZS13aWR0aD0iMSIgb3BhY2l0eT0iMC41Ij4KICAgIDxsaW5lIHgxPSIwIiB5MT0iNDAiIHgyPSIxMDAwIiB5Mj0iNDAiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMjIwIiB4Mj0iMTAwMCIgeTI9IjIyMCIvPgogICAgPHBhdGggZD0iTTAsMTMwIEwyMDAsOTAgTDQwMCwxNTAgTDYwMCw4MCBMODAwLDE0MCBMMTAwMCwxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMmE0YSIvPgogIDwvZz4KCiAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iMi4yIiBmaWxsPSIjMzhCREY4Ii8+CiAgPGNpcmNsZSBjeD0iOTQwIiBjeT0iMjAwIiByPSIyLjIiIGZpbGw9IiMzOEJERjgiLz4KICA8Y2lyY2xlIGN4PSI1MDAiIGN5PSIzMCIgcj0iMS44IiBmaWxsPSIjN0REM0ZDIi8+CiAgPGNpcmNsZSBjeD0iMzAwIiBjeT0iMjMwIiByPSIxLjgiIGZpbGw9IiM3REQzRkMiLz4KICA8Y2lyY2xlIGN4PSI3MDAiIGN5PSIyMzAiIHI9IjEuOCIgZmlsbD0iIzdERDNGQyIvPgoKICA8cmVjdCB4PSI2MCIgeT0iNzAiIHdpZHRoPSI0IiBoZWlnaHQ9IjgwIiBmaWxsPSIjMDBCRkZGIi8+CiAgPHRleHQgeD0iODUiIHk9IjExOCIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSJ1cmwoI3RleHRHcmFkKSIgbGV0dGVyLXNwYWNpbmc9IjEiPgogICAgU2FpdGVqYSBSZWRkeSBLYXJrYQogIDwvdGV4dD4KICA8dGV4dCB4PSI4NiIgeT0iMTUwIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZpbGw9IiM3REQzRkMiIGxldHRlci1zcGFjaW5nPSIyIj4KICAgIEFJIEVOR0lORUVSICYjMTgzOyBGVUxMIFNUQUNLIERFVkVMT1BFUiAmIzE4MzsgQi5URUNIIEFJTUwKICA8L3RleHQ+CiAgPHRleHQgeD0iODYiIHk9IjE3OCIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBmaWxsPSIjOTRBM0I4IiBsZXR0ZXItc3BhY2luZz0iMSI+CiAgICBNYWxsYSBSZWRkeSBVbml2ZXJzaXR5ICYjODIyNjsgSHlkZXJhYmFkLCBJbmRpYQogIDwvdGV4dD4KCiAgPHJlY3QgeD0iNjAiIHk9IjIwMCIgd2lkdGg9Ijg4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMTIzYTVlIi8+Cjwvc3ZnPgo=" width="100%" alt="Saiteja Reddy Karka banner" />
 
-      <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="8" result="b"/>
-        <feComponentTransfer>
-          <feFuncA type="table" tableValues="0 0.25"/>
-        </feComponentTransfer>
-        <feBlend in="SourceGraphic" in2="b" mode="normal"/>
-      </filter>
+<!-- ============ 2. ANIMATED TYPING TEXT ============ -->
+<a href="https://github.com/SAITEJA0217">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=650&lines=Building+Agentic+AI+Systems;Browser+Automation+%7C+Form+Intelligence;AI+Engineer+%7C+Full+Stack+Developer;Open+to+Internships+%26+Research" alt="Typing SVG" />
+</a>
 
-      <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
-        <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000a12" flood-opacity="0.7"/>
-      </filter>
+<br/>
 
-      <mask id="fade">
-        <rect x="0" y="0" width="1200" height="220" fill="url(#g1)"/>
-      </mask>
-    </defs>
+<!-- ============ SOCIAL / CONTACT BADGES ============ -->
+<a href="https://saiteja-space.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfolio-00BFFF?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/saiteja-reddy-karka/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:karkasaiteja4@gmail.com">
+  <img src="https://img.shields.io/badge/Email-050816?style=for-the-badge&logo=gmail&logoColor=00BFFF" />
+</a>
+<a href="https://github.com/SAITEJA0217">
+  <img src="https://img.shields.io/badge/GitHub-050816?style=for-the-badge&logo=github&logoColor=00BFFF" />
+</a>
 
-    <!-- Background -->
-    <rect width="1200" height="220" fill="url(#g1)"/>
+<br/><br/>
 
-    <!-- Neon grid lines -->
-    <g opacity="0.06" stroke="url(#neon)" stroke-width="1">
-      <path d="M0 180 L1200 40" stroke-opacity="0.06"/>
-      <path d="M0 160 L1200 20" stroke-opacity="0.04"/>
-    </g>
+<img src="https://img.shields.io/badge/Open%20to-Internships-050816?style=flat-square&labelColor=050816&color=00BFFF" />
+<img src="https://img.shields.io/badge/Open%20to-Research-050816?style=flat-square&labelColor=050816&color=38BDF8" />
+<img src="https://img.shields.io/badge/Open%20to-Freelance-050816?style=flat-square&labelColor=050816&color=7DD3FC" />
+<img src="https://img.shields.io/badge/Open%20to-Open%20Source-050816?style=flat-square&labelColor=050816&color=00BFFF" />
 
-    <!-- Floating glass card -->
-    <g transform="translate(40,18)" filter="url(#softShadow)">
-      <rect x="0" y="0" rx="14" ry="14" width="1120" height="184" fill="#071018" opacity="0.46" stroke="rgba(0,200,255,0.12)" stroke-width="1" />
-      <rect x="2" y="2" rx="12" ry="12" width="1116" height="180" fill="url(#g1)" opacity="0.08" filter="url(#glass)"></rect>
-
-      <!-- Left accent -->
-      <rect x="24" y="34" rx="8" ry="8" width="380" height="116" fill="rgba(2,20,30,0.6)"></rect>
-
-      <!-- Neon accent bar -->
-      <rect x="24" y="28" rx="4" ry="4" width="10" height="124" fill="url(#neon)"></rect>
-
-      <!-- Name and Title -->
-      <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-        <text x="54" y="66" fill="#00f0ff" font-size="28" font-weight="700" letter-spacing="0.4">SAITEJA K</text>
-        <text x="54" y="96" fill="#bcdcff" font-size="14" font-weight="600">AI Engineer • Open Source • Product-focused</text>
-        <text x="54" y="122" fill="#9bbfe8" font-size="12" font-weight="500" opacity="0.9">Designing reliable ML systems and production-grade AI experiences.</text>
-      </g>
-
-      <!-- Right summary chips -->
-      <g transform="translate(580,34)" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-        <rect x="0" y="0" rx="8" ry="8" width="468" height="52" fill="rgba(0,12,20,0.36)" stroke="rgba(0,150,255,0.06)"></rect>
-        <text x="18" y="24" fill="#9ee9ff" font-size="13" font-weight="700">Recruiter-friendly • Remote-ready • Works well with product teams</text>
-        <text x="18" y="40" fill="#8fbfe8" font-size="12">Actively building AI products focused on developer workflows & education.</text>
-      </g>
-
-      <!-- Subtle circuit lines -->
-      <g stroke="#004cff" stroke-opacity="0.06" stroke-width="1">
-        <path d="M480 34 L680 20 L900 40" />
-        <path d="M480 150 L700 170 L920 150" />
-      </g>
-    </g>
-  </svg>
 </div>
 
-<!-- Small spacer -->
-<p></p>
+<br/>
 
-<!-- =========================
-     2. Animated Typing Text
-     ========================= -->
+<!-- ============ 3. PROFESSIONAL INTRODUCTION ============ -->
+<table align="center" width="100%">
+<tr>
+<td align="center">
+
+### AI Engineer focused on building autonomous, trustworthy systems — from browser agents that understand web forms to full-stack platforms that ship.
+
+**Final-year B.Tech (AIML)** at Malla Reddy University, currently building **FormPilot**, a browser agent for
+trustworthy web form automation, targeting an **IEEE research publication**.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ 4. ABOUT ME ============ -->
+## <img src="https://img.shields.io/badge/-About%20Me-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+I design and ship AI-driven products end to end — from model integration and agent architecture to
+production-grade frontend and backend systems. My current research centers on **browser agents**,
+specifically making autonomous form-filling systems **explainable and trustworthy** through
+per-field confidence scoring and correction-based learning.
+
+Outside of research, I build and ship full-stack SaaS products independently — covering everything
+from authentication and databases to deployment and iteration based on real user feedback.
+
+**What I care about:**
+
+- Shipping systems that are reliable, not just impressive in a demo
+- AI agents that can explain *why* they made a decision
+- Clean architecture over clever hacks
+- Research that leads to something people can actually use
+
+</td>
+<td width="40%" valign="top">
+
+```yaml
+name: Saiteja Reddy Karka
+role: AI Engineer / Full Stack Developer
+education: B.Tech AIML, Malla Reddy University
+location: Hyderabad, Telangana, India
+focus:
+  - Browser Agents
+  - AI Form Automation
+  - RAG & LLM Systems
+  - Full Stack Product Development
+currently_building: FormPilot (IEEE track)
+status: available_for_internships
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ 5. EXPERIENCE TIMELINE ============ -->
+## <img src="https://img.shields.io/badge/-Experience%20Timeline-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
+<table align="center">
+<tr>
+<td width="15%" align="center"><b>2023</b></td>
+<td width="85%">Started AI &amp; ML journey — core foundations in Python, algorithms, and machine learning theory</td>
+</tr>
+<tr>
+<td colspan="2" align="center">│</td>
+</tr>
+<tr>
+<td align="center"><b>2024</b></td>
+<td>Full stack development — React, Node.js, databases, and end-to-end product architecture</td>
+</tr>
+<tr>
+<td colspan="2" align="center">│</td>
+</tr>
+<tr>
+<td align="center"><b>2025</b></td>
+<td>Applied AI projects — building and deploying production SaaS tools integrating LLMs into real workflows</td>
+</tr>
+<tr>
+<td colspan="2" align="center">│</td>
+</tr>
+<tr>
+<td align="center"><b>2026</b></td>
+<td>
+
+Research &amp; flagship builds — **InternLink**, **Jarvis**, **FormPilot**, **BharatSkill**
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ 6. CURRENT FOCUS / ROADMAP ============ -->
+## <img src="https://img.shields.io/badge/-Current%20Focus-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
+<table align="center">
+<tr>
+<td align="center">🔹<br/><b>AI Agents</b></td>
+<td align="center">🔹<br/><b>RAG Systems</b></td>
+<td align="center">🔹<br/><b>LangGraph</b></td>
+<td align="center">🔹<br/><b>Next.js</b></td>
+</tr>
+<tr>
+<td align="center">🔹<br/><b>System Design</b></td>
+<td align="center">🔹<br/><b>Docker</b></td>
+<td align="center">🔹<br/><b>Research Papers</b></td>
+<td align="center">🔹<br/><b>IEEE Publication</b></td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ 7. TECH STACK ============ -->
+## <img src="https://img.shields.io/badge/-Tech%20Stack-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
+**Artificial Intelligence**
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini-050816?style=flat-square&logo=googlegemini&logoColor=8E75B2" />
+<img src="https://img.shields.io/badge/Groq-050816?style=flat-square&logo=data:image/svg+xml;base64,&logoColor=00BFFF" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind&theme=dark" />
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi&theme=dark" />
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=mongodb,firebase,postgres,redis&theme=dark" />
+
+**Cloud &amp; DevOps**
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,githubactions,vercel,netlify&theme=dark" />
+
+**Tools &amp; Design**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux&theme=dark" />
+
+<br/>
+
+<!-- ============ 8. GITHUB ANALYTICS DASHBOARD ============ -->
+## <img src="https://img.shields.io/badge/-GitHub%20Analytics-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
 <div align="center">
-  <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1500&color=00e6ff&background=00000000&width=780&lines=AI+Engineer;Open+Source+Contributor;Building+Scalable+AI+Products;Mentor+and+Collaborator" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=react&bg_color=050816&title_color=00BFFF&icon_color=38BDF8&text_color=F8FAFC&border_color=123a5e&hide_border=false&count_private=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=react&bg_color=050816&title_color=00BFFF&text_color=F8FAFC&border_color=123a5e&hide_border=false" width="38%" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SAITEJA0217&theme=react&background=050816&stroke=123a5e&ring=00BFFF&fire=38BDF8&currStreakLabel=F8FAFC&sideLabels=F8FAFC&dates=94A3B8&border=123a5e" width="90%" />
+
 </div>
 
-<!-- =========================
-     3. Professional Hero Section
-     ========================= -->
-<div align="center" style="margin-top:12px">
-  <h1 align="center" style="margin:8px 0 4px 0;font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;color:#cfefff;">
-    SAITEJA K — AI Engineer
-  </h1>
-  <p align="center" style="max-width:900px;color:#98c9ff;margin:4px 12px 16px 12px;line-height:1.45">
-    I build production-grade AI features, automation tools, and developer-first products.
-    My work spans backend systems, model integrations, Chrome extensions, and platform tooling.
-    Passionate about developer experience, clean architecture, and effective collaboration.
-  </p>
+<br/>
 
-  <!-- Quick badges -->
-  <p align="center" style="margin:6px 0 18px 0">
-    <img src="https://img.shields.io/badge/Role-AI%20Engineer-00bfff?style=for-the-badge&logo=ai" alt="Role" />
-    <img src="https://img.shields.io/badge/Location-Remote-0a1f2c?style=for-the-badge" alt="Remote" />
-    <img src="https://img.shields.io/badge/Available-Open%20to%20Opportunities-007bff?style=for-the-badge" alt="Open to work" />
-  </p>
+<!-- ============ 9. CONTRIBUTION GRAPH ============ -->
+## <img src="https://img.shields.io/badge/-Contribution%20Graph-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAITEJA0217&theme=react-dark&bg_color=050816&color=00BFFF&line=38BDF8&point=F8FAFC&area=true&area_color=00BFFF&hide_border=true" width="95%" />
+
 </div>
 
-<hr style="border:0.5px solid rgba(255,255,255,0.04)">
+<br/>
 
-<!-- =========================
-     4. About Me
-     ========================= -->
-## About Me
+<!-- ============ 10. GITHUB SNAKE ANIMATION ============ -->
+## <img src="https://img.shields.io/badge/-Contribution%20Snake-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-I am an AI engineer focused on building reliable ML systems, production integrations, and delightful developer tooling. I bring product-minded engineering to machine learning: shipping features, maintaining systems, and documenting for scale.
+<!--
+  Requires a scheduled GitHub Actions workflow in this profile repo
+  (Platane/snk) that generates and commits the SVG output below.
+-->
+<div align="center">
 
-- Years: 3+ years building AI-first products.
-- Focus: Model integration, data pipelines, automation, Chrome extensions, platform reliability.
-- Approach: Minimalist interfaces, pragmatic design, and strong code hygiene.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SAITEJA0217/SAITEJA0217/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/SAITEJA0217/SAITEJA0217/output/github-contribution-grid-snake.svg" width="95%" />
+</picture>
 
-<p style="margin:6px 0 0 0">
-  <strong>Core strengths:</strong>
-  clean architecture • API-first design • automated testing • telemetry & metrics • documentation
-</p>
-
-<!-- =========================
-     5. Experience Timeline
-     ========================= -->
-## Experience
-
-<section>
-  <div style="max-width:960px;margin:8px auto 18px;padding:8px 10px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.02));">
-    <ol style="list-style:none;margin:0;padding:0;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;color:#cfefff;">
-      <li style="margin:18px 0;padding:12px;border-left:3px solid rgba(0,140,255,0.12);">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
-          <div>
-            <div style="font-weight:700;color:#00e6ff;font-size:14px">AI Engineer • FormPilot (Contract)</div>
-            <div style="font-size:12px;color:#b9dff7">Building Chrome extension automation and form intelligence — production ML integrations & telemetry.</div>
-          </div>
-          <div style="font-size:12px;color:#94c8ff">2025 — Present</div>
-        </div>
-      </li>
-
-      <li style="margin:18px 0;padding:12px;border-left:3px solid rgba(0,140,255,0.08);">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
-          <div>
-            <div style="font-weight:700;color:#bfeeff;font-size:14px">Product Engineer • InternLink</div>
-            <div style="font-size:12px;color:#b9dff7">Led backend for internship matching & AI recommendation pipelines. Improved candidate-job match accuracy by instrumented experiments.</div>
-          </div>
-          <div style="font-size:12px;color:#94c8ff">2023 — 2025</div>
-        </div>
-      </li>
-
-      <li style="margin:18px 0;padding:12px;border-left:3px solid rgba(0,140,255,0.06);">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
-          <div>
-            <div style="font-weight:700;color:#bfeeff;font-size:14px">Founder Contributor • BharatSkill</div>
-            <div style="font-size:12px;color:#b9dff7">Built career platform features, mentoring flows, and assessment pipelines to help skilling and placement.</div>
-          </div>
-          <div style="font-size:12px;color:#94c8ff">2022 — 2024</div>
-        </div>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<!-- =========================
-     6. Tech Stack grouped by category
-     ========================= -->
-## Tech Stack
-
-<div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px">
-  <!-- Platform -->
-  <div style="min-width:260px;flex:1;background:rgba(255,255,255,0.01);padding:12px;border-radius:8px">
-    <div style="font-weight:700;color:#bfeeff;margin-bottom:8px">Languages & Platforms</div>
-    <p style="margin:0">
-      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node" />
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-      <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-    </p>
-  </div>
-
-  <!-- MLOps -->
-  <div style="min-width:260px;flex:1;background:rgba(255,255,255,0.01);padding:12px;border-radius:8px">
-    <div style="font-weight:700;color:#bfeeff;margin-bottom:8px">ML / AI</div>
-    <p style="margin:0">
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="sklearn" />
-      <img src="https://img.shields.io/badge/transformers-1C9?style=flat-square&logo=transformers&logoColor=white" alt="transformers" />
-      <img src="https://img.shields.io/badge/MLflow-F06C00?style=flat-square&logo=mlflow&logoColor=white" alt="mlflow" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="docker" />
-    </p>
-  </div>
-
-  <!-- Cloud -->
-  <div style="min-width:260px;flex:1;background:rgba(255,255,255,0.01);padding:12px;border-radius:8px">
-    <div style="font-weight:700;color:#bfeeff;margin-bottom:8px">Cloud & Infra</div>
-    <p style="margin:0">
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="aws" />
-      <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" alt="gcp" />
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="k8s" />
-      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="prometheus" />
-    </p>
-  </div>
-
-  <!-- Tools -->
-  <div style="min-width:260px;flex:1;background:rgba(255,255,255,0.01);padding:12px;border-radius:8px">
-    <div style="font-weight:700;color:#bfeeff;margin-bottom:8px">Tools & Productivity</div>
-    <p style="margin:0">
-      <img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white" alt="git" />
-      <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="vscode" />
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="postman" />
-      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="figma" />
-    </p>
-  </div>
 </div>
 
-<!-- =========================
-     7. GitHub Analytics Dashboard
-     ========================= -->
-## GitHub Analytics
+<br/>
 
-<div align="center" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center">
-  <!-- Readme Stats -->
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=dark&hide_border=true&count_private=true&title_color=00e6ff&icon_color=00bfff" alt="GitHub Stats" style="max-width:100%;border-radius:10px" />
+<!-- ============ 11. GITHUB METRICS ============ -->
+## <img src="https://img.shields.io/badge/-GitHub%20Metrics-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-  <!-- Top Languages -->
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=dark&hide_border=true&title_color=00e6ff" alt="Top Languages" style="max-width:520px;border-radius:10px" />
+<div align="center">
 
-  <!-- Streak -->
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=SAITEJA0217&theme=dark&hide_border=true&date_format=%5BY%20%5DM%20j" alt="GitHub Streak" style="max-width:420px;border-radius:10px" />
+<img src="https://metrics.lecoq.io/SAITEJA0217?template=classic&base.header=0&base.activity=1&base.community=0&base.repositories=0&base.metadata=0&config.timezone=Asia%2FKolkata" width="95%" />
+
 </div>
 
-<!-- =========================
-     8. Contribution Graph
-     ========================= -->
-## Contribution Activity
+> Metrics render via the community-maintained `lowlighter/metrics` service. If the widget is temporarily
+> unavailable, the stats and streak widgets above remain fully functional.
 
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=SAITEJA0217&theme=react-dark&area=true" alt="Contribution Graph" style="width:100%;max-width:980px;border-radius:10px" />
-</p>
+<br/>
 
-<!-- =========================
-     9. GitHub Snake Animation
-     ========================= -->
-## GitHub Snake
+<!-- ============ 12. GITHUB TROPHY ============ -->
+## <img src="https://img.shields.io/badge/-GitHub%20Trophies-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-<p align="center">
-  <img src="https://github-profile-snake.vercel.app/?user=SAITEJA0217&theme=dark" alt="GitHub Snake" style="max-width:940px;border-radius:10px" />
-</p>
+<div align="center">
 
-<!-- =========================
-     10. GitHub Metrics
-     ========================= -->
-## GitHub Metrics
+<img src="https://github-profile-trophy.vercel.app/?username=SAITEJA0217&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" />
 
-<p align="center">
-  <!-- If this endpoint doesn't load, the Readme stats above provide metrics -->
-  <img src="https://github-metrics.vercel.app/api?username=SAITEJA0217&theme=dark" alt="GitHub Metrics" style="max-width:980px;border-radius:10px" />
-</p>
-
-<!-- =========================
-     11. GitHub Trophy
-     ========================= -->
-## Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SAITEJA0217&theme=dark&margin-w=8&margin-h=8" alt="Trophies" style="max-width:980px;border-radius:10px" />
-</p>
-
-<hr style="border:0.5px solid rgba(255,255,255,0.04)">
-
-<!-- =========================
-     12. Current Focus Roadmap
-     ========================= -->
-## Current Focus — Roadmap
-
-<div style="max-width:980px;margin:8px auto 18px;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.02));">
-  <table style="width:100%;border-collapse:collapse;color:#cfefff;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif">
-    <tr>
-      <td style="width:46%;padding:8px 12px;vertical-align:top">
-        <div style="font-weight:700;color:#00e6ff;margin-bottom:6px">Next 3 months</div>
-        <ul style="margin:0;padding-left:18px">
-          <li>Ship FormPilot v2: smarter form automation with embeddings & offline sync.</li>
-          <li>Launch Jarvis MVP: personal assistant with secure context and plugin integrations.</li>
-          <li>Polish InternLink matching: scalable ranking & feedback loop instrumentation.</li>
-        </ul>
-      </td>
-      <td style="width:54%;padding:8px 12px;vertical-align:top">
-        <div style="font-weight:700;color:#00e6ff;margin-bottom:6px">Ongoing</div>
-        <p style="margin:0 0 8px 0">Improving observability, test coverage, and developer documentation across core projects.</p>
-        <div style="display:flex;flex-direction:column;gap:8px">
-          <img src="https://img.shields.io/badge/Model+Integrations-60%25-00bfff?style=flat-square" alt="Model Integrations" />
-          <img src="https://img.shields.io/badge/Platform+Reliability-45%25-00bfff?style=flat-square" alt="Reliability" />
-          <img src="https://img.shields.io/badge/Developer+Experience-75%25-00bfff?style=flat-square" alt="DX" />
-        </div>
-      </td>
-    </tr>
-  </table>
 </div>
 
-<!-- =========================
-     13. Featured Projects displayed as premium cards
-     ========================= -->
-## Featured Projects
+<br/>
 
-<div style="display:flex;flex-direction:column;gap:14px;max-width:980px;margin:8px auto 18px">
-  <!-- Card: InternLink -->
-  <div style="display:flex;flex-direction:row;gap:12px;padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.012), rgba(0,0,0,0.02));border:1px solid rgba(0,140,255,0.04)">
-    <div style="min-width:120px;flex:0 0 120px">
-      <img src="https://raw.githubusercontent.com/SAITEJA0217/SAITEJA0217/main/assets/internlink-banner.png" alt="InternLink" style="width:120px;height:72px;object-fit:cover;border-radius:6px;background:#02121a" />
-    </div>
-    <div style="flex:1">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start">
-        <div>
-          <div style="font-weight:700;color:#cfefff">InternLink</div>
-          <div style="font-size:13px;color:#aaddff;margin-top:6px">AI-driven internship placement platform — ranking, recommendations and interview prep tools.</div>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">
-          <div>
-            <a href="https://github.com/SAITEJA0217/InternLink" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repository-0a66c2?style=flat-square&logo=github" alt="repo" /></a>
-            <a href="#" target="_blank"><img src="https://img.shields.io/badge/Live-Demo-00bfff?style=flat-square" alt="live" /></a>
-          </div>
-          <div style="font-size:12px;color:#98c9ff">Stack: Python • FastAPI • PostgreSQL • PyTorch • Docker</div>
-        </div>
-      </div>
-      <div style="margin-top:10px;font-size:13px;color:#bfeeff">Key contributions: recommendation pipeline, infra automation, candidate matching experiments, and product metrics dashboard.</div>
-    </div>
-  </div>
+<!-- ============ 13. FEATURED PROJECTS ============ -->
+## <img src="https://img.shields.io/badge/-Featured%20Projects-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-  <!-- Card: FormPilot -->
-  <div style="display:flex;flex-direction:row;gap:12px;padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.012), rgba(0,0,0,0.02));border:1px solid rgba(0,140,255,0.04)">
-    <div style="min-width:120px;flex:0 0 120px">
-      <img src="https://raw.githubusercontent.com/SAITEJA0217/SAITEJA0217/main/assets/formpilot-banner.png" alt="FormPilot" style="width:120px;height:72px;object-fit:cover;border-radius:6px;background:#02121a" />
-    </div>
-    <div style="flex:1">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start">
-        <div>
-          <div style="font-weight:700;color:#cfefff">FormPilot</div>
-          <div style="font-size:13px;color:#aaddff;margin-top:6px">AI form automation Chrome extension — auto-fill, extract context, and automate workflows.</div>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">
-          <div>
-            <a href="https://github.com/SAITEJA0217/FormPilot" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repository-0a66c2?style=flat-square&logo=github" alt="repo" /></a>
-            <a href="#" target="_blank"><img src="https://img.shields.io/badge/Chrome-Extension-007bff?style=flat-square&logo=google-chrome" alt="chrome" /></a>
-          </div>
-          <div style="font-size:12px;color:#98c9ff">Stack: TypeScript • Chrome Extensions • embeddings • serverless</div>
-        </div>
-      </div>
-      <div style="margin-top:10px;font-size:13px;color:#bfeeff">Key contributions: extension architecture, privacy-first embedding pipelines, and robust offline sync experience.</div>
-    </div>
-  </div>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-  <!-- Card: Jarvis -->
-  <div style="display:flex;flex-direction:row;gap:12px;padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.012), rgba(0,0,0,0.02));border:1px solid rgba(0,140,255,0.04)">
-    <div style="min-width:120px;flex:0 0 120px">
-      <img src="https://raw.githubusercontent.com/SAITEJA0217/SAITEJA0217/main/assets/jarvis-banner.png" alt="Jarvis" style="width:120px;height:72px;object-fit:cover;border-radius:6px;background:#02121a" />
-    </div>
-    <div style="flex:1">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start">
-        <div>
-          <div style="font-weight:700;color:#cfefff">Jarvis</div>
-          <div style="font-size:13px;color:#aaddff;margin-top:6px">Personal AI assistant — private, extensible, and integrated with daily developer tools.</div>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">
-          <div>
-            <a href="https://github.com/SAITEJA0217/Jarvis" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repository-0a66c2?style=flat-square&logo=github" alt="repo" /></a>
-            <a href="#" target="_blank"><img src="https://img.shields.io/badge/Docs-Live-00bfff?style=flat-square" alt="docs" /></a>
-          </div>
-          <div style="font-size:12px;color:#98c9ff">Stack: Python • LangChain • FastAPI • Redis • Docker</div>
-        </div>
-      </div>
-      <div style="margin-top:10px;font-size:13px;color:#bfeeff">Key contributions: orchestration, privacy controls, and plugin-based skill system.</div>
-    </div>
-  </div>
+### InternLink
+**AI-Powered Internship Platform**
 
-  <!-- Card: BharatSkill -->
-  <div style="display:flex;flex-direction:row;gap:12px;padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.012), rgba(0,0,0,0.02));border:1px solid rgba(0,140,255,0.04)">
-    <div style="min-width:120px;flex:0 0 120px">
-      <img src="https://raw.githubusercontent.com/SAITEJA0217/SAITEJA0217/main/assets/bharatskill-banner.png" alt="BharatSkill" style="width:120px;height:72px;object-fit:cover;border-radius:6px;background:#02121a" />
-    </div>
-    <div style="flex:1">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start">
-        <div>
-          <div style="font-weight:700;color:#cfefff">BharatSkill</div>
-          <div style="font-size:13px;color:#aaddff;margin-top:6px">AI career platform helping students prepare for roles with personalized learning and assessment paths.</div>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">
-          <div>
-            <a href="https://github.com/SAITEJA0217/BharatSkill" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repository-0a66c2?style=flat-square&logo=github" alt="repo" /></a>
-            <a href="#" target="_blank"><img src="https://img.shields.io/badge/Platform-Live-00bfff?style=flat-square" alt="live" /></a>
-          </div>
-          <div style="font-size:12px;color:#98c9ff">Stack: Node.js • React • MongoDB • ML features</div>
-        </div>
-      </div>
-      <div style="margin-top:10px;font-size:13px;color:#bfeeff">Key contributions: platform architecture, assessment pipelines, and job matching logic.</div>
-    </div>
-  </div>
+Connects students with internship opportunities using AI-driven matching
+between candidate profiles and role requirements.
+
+`Next.js` `Firebase` `Gemini API` `Tailwind CSS`
+
+<a href="https://github.com/SAITEJA0217/InternLink"><img src="https://img.shields.io/badge/Repository-050816?style=flat-square&logo=github&logoColor=00BFFF" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Live%20Demo-00BFFF?style=flat-square&logo=vercel&logoColor=white" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### FormPilot
+**AI Form Automation Chrome Extension**
+
+A browser agent that fills web forms using stored user profiles, with
+per-field confidence scoring and a correction-based learning loop.
+Core subject of an ongoing IEEE research paper.
+
+`Manifest V3` `Gemini 2.5 Flash` `Firebase Auth` `Firestore`
+
+<a href="https://github.com/SAITEJA0217/FormPilot"><img src="https://img.shields.io/badge/Repository-050816?style=flat-square&logo=github&logoColor=00BFFF" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Live%20Demo-00BFFF?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Jarvis
+**Personal AI Assistant**
+
+A conversational AI assistant designed to handle everyday tasks and
+queries through natural language, backed by an LLM reasoning layer.
+
+`Python` `LLM Integration` `API Orchestration`
+
+<a href="https://github.com/SAITEJA0217/Jarvis"><img src="https://img.shields.io/badge/Repository-050816?style=flat-square&logo=github&logoColor=00BFFF" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Live%20Demo-00BFFF?style=flat-square&logo=vercel&logoColor=white" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### BharatSkill
+**AI Career Platform**
+
+An AI-assisted platform helping users map skills to career paths with
+personalized, data-driven recommendations.
+
+`React` `Node.js` `MongoDB` `AI Recommendations`
+
+<a href="https://github.com/SAITEJA0217/BharatSkill"><img src="https://img.shields.io/badge/Repository-050816?style=flat-square&logo=github&logoColor=00BFFF" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Live%20Demo-00BFFF?style=flat-square&logo=vercel&logoColor=white" /></a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ 14. OPEN SOURCE CONTRIBUTIONS ============ -->
+## <img src="https://img.shields.io/badge/-Open%20Source-00BFFF?style=flat-square&labelColor=050816" height="26"/>
+
+<div align="center">
+
+| Pull Requests | Issues Opened | Organizations |
+|:---:|:---:|:---:|
+| Actively contributing | Reporting &amp; triaging | Building toward org-level OSS work |
+
 </div>
 
-<!-- =========================
-     14. Open Source Contributions
-     ========================= -->
-## Open Source
+<br/>
 
-I contribute to projects that improve developer workflows and AI accessibility. Selected contributions:
+<!-- ============ RESEARCH INTERESTS ============ -->
+## <img src="https://img.shields.io/badge/-Research%20Interests-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-- Contributor to several ML tooling repositories — PRs include feature additions, tests, and CI improvements.
-- Maintainer: small utilities used across my projects (see repos above).
-- Open to mentoring and code reviews for early-stage contributors.
+<div align="center">
 
-<p style="margin-top:8px">
-  <a href="https://github.com/SAITEJA0217?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/Explore%20Repos-View%20All-007bff?style=flat-square&logo=github" alt="repos" /></a>
-</p>
+<img src="https://img.shields.io/badge/AI%20Agents-050816?style=for-the-badge&labelColor=050816&color=00BFFF" />
+<img src="https://img.shields.io/badge/LLMs-050816?style=for-the-badge&labelColor=050816&color=38BDF8" />
+<img src="https://img.shields.io/badge/RAG-050816?style=for-the-badge&labelColor=050816&color=7DD3FC" />
+<img src="https://img.shields.io/badge/Browser%20Agents-050816?style=for-the-badge&labelColor=050816&color=00BFFF" />
+<img src="https://img.shields.io/badge/Automation-050816?style=for-the-badge&labelColor=050816&color=38BDF8" />
+<img src="https://img.shields.io/badge/Developer%20Tools-050816?style=for-the-badge&labelColor=050816&color=7DD3FC" />
 
-<!-- =========================
-     15. Certifications
-     ========================= -->
-## Certifications
-
-<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:flex-start">
-  <div style="background:rgba(255,255,255,0.01);padding:10px;border-radius:8px;min-width:220px">
-    <div style="font-weight:700;color:#bfeeff">Professional ML Engineer — Coursera</div>
-    <div style="font-size:13px;color:#9ccfff;margin-top:6px">Practical ML engineering concepts and deployment best practices.</div>
-  </div>
-
-  <div style="background:rgba(255,255,255,0.01);padding:10px;border-radius:8px;min-width:220px">
-    <div style="font-weight:700;color:#bfeeff">Google Cloud: ML Ops Specialization</div>
-    <div style="font-size:13px;color:#9ccfff;margin-top:6px">Model deployment, monitoring, and CI/CD for ML.</div>
-  </div>
-
-  <div style="background:rgba(255,255,255,0.01);padding:10px;border-radius:8px;min-width:220px">
-    <div style="font-weight:700;color:#bfeeff">Advanced Python & System Design</div>
-    <div style="font-size:13px;color:#9ccfff;margin-top:6px">Designing scalable APIs and robust backend systems.</div>
-  </div>
 </div>
 
-<!-- =========================
-     16. Achievements
-     ========================= -->
-## Achievements
+<br/>
 
-- Built FormPilot extension with >1k early users in pilot.
-- Mentored multiple interns who shipped product features.
-- Regular contributor to open-source tooling & developer libraries.
-- Strong track record of running experiments to improve product metrics.
+<!-- ============ 15. CERTIFICATIONS ============ -->
+## <img src="https://img.shields.io/badge/-Certifications-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-<!-- =========================
-     17. Resume Download
-     ========================= -->
-## Resume
+<table align="center">
+<tr>
+<th>Certification</th>
+<th>Issuer</th>
+<th>Status</th>
+</tr>
+<tr>
+<td>Certification Name</td>
+<td>Issuing Platform</td>
+<td>Add Credential Link</td>
+</tr>
+<tr>
+<td>Certification Name</td>
+<td>Issuing Platform</td>
+<td>Add Credential Link</td>
+</tr>
+<tr>
+<td>Certification Name</td>
+<td>Issuing Platform</td>
+<td>Add Credential Link</td>
+</tr>
+</table>
 
-Download a PDF of my resume:
+<br/>
 
-<p>
-  <a href="https://github.com/SAITEJA0217/SAITEJA0217/raw/main/resume.pdf" target="_blank"><img src="https://img.shields.io/badge/Download-Resume-00bfff?style=for-the-badge&logo=adobe-reader" alt="Resume" /></a>
-</p>
+<!-- ============ 16. ACHIEVEMENTS ============ -->
+## <img src="https://img.shields.io/badge/-Achievements-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-(Note: resume.pdf should be uploaded to the repository root for direct download.)
+<table align="center">
+<tr>
+<td width="25%" align="center"><b>GitHub</b></td>
+<td width="25%" align="center"><b>Hackathons</b></td>
+<td width="25%" align="center"><b>College</b></td>
+<td width="25%" align="center"><b>Research</b></td>
+</tr>
+<tr>
+<td align="center">Consistent contribution history across active repositories</td>
+<td align="center">Add hackathon achievements here</td>
+<td align="center">Final-year AIML student, Malla Reddy University</td>
+<td align="center">IEEE paper in progress — FormPilot</td>
+</tr>
+</table>
 
-<!-- =========================
-     18. Contact Section
-     ========================= -->
-## Contact
+<br/>
 
-I'm available for roles & collaborations. Recruiters and product teams are welcome to reach out.
+<!-- ============ 17. RESUME ============ -->
+## <img src="https://img.shields.io/badge/-Resume-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-<div style="display:flex;gap:8px;flex-wrap:wrap">
-  <a href="mailto:saiteja@example.com"><img src="https://img.shields.io/badge/Email-saiteja%40example.com-00bfff?style=flat-square&logo=gmail&logoColor=white" alt="email" /></a>
-  <a href="https://www.linkedin.com/in/saitejak/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin" alt="linkedin" /></a>
-  <a href="https://twitter.com/SAITEJA0217" target="_blank"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter" alt="twitter" /></a>
-  <a href="https://calendly.com/saiteja/30min" target="_blank"><img src="https://img.shields.io/badge/Book%20Time-30min-00bfff?style=flat-square&logo=calendly" alt="calendly" /></a>
+<div align="center">
+
+<a href="YOUR_RESUME_LINK">
+  <img src="https://img.shields.io/badge/Download%20Resume-00BFFF?style=for-the-badge&logo=googledrive&logoColor=white" />
+</a>
+
 </div>
 
-<!-- Visitor Counter -->
-<p style="margin-top:12px">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=SAITEJA0217.SAITEJA0217&left_color=0D1117&right_color=00aaff" alt="visitor-badge" />
-</p>
+<br/>
 
-<!-- =========================
-     19. Professional Footer
-     ========================= -->
-<hr style="border:0.5px solid rgba(255,255,255,0.04)">
+<!-- ============ 18. CONTACT ============ -->
+## <img src="https://img.shields.io/badge/-Contact-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
-<div align="center" style="padding:14px 4px">
-  <p style="color:#9ccfff;margin:0;font-size:14px">
-    Thank you for visiting my profile. I prefer concise, reliable engineering and clear product thinking — if that fits your team, let's talk.
-  </p>
+<div align="center">
 
-  <p style="margin-top:10px">
-    <img src="https://img.shields.io/badge/License-MIT-00bfff?style=flat-square" alt="license" />
-    <img src="https://img.shields.io/badge/Code%20Style-PEP8-0a1f2c?style=flat-square" alt="style" />
-    <img src="https://img.shields.io/badge/Docs-Open-00bfff?style=flat-square" alt="docs" />
-  </p>
+<a href="https://saiteja-space.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfolio-050816?style=for-the-badge&logo=vercel&logoColor=00BFFF" />
+</a>
+<a href="https://www.linkedin.com/in/saiteja-reddy-karka/">
+  <img src="https://img.shields.io/badge/LinkedIn-050816?style=for-the-badge&logo=linkedin&logoColor=00BFFF" />
+</a>
+<a href="mailto:karkasaiteja4@gmail.com">
+  <img src="https://img.shields.io/badge/Email-050816?style=for-the-badge&logo=gmail&logoColor=00BFFF" />
+</a>
+<a href="https://github.com/SAITEJA0217">
+  <img src="https://img.shields.io/badge/GitHub-050816?style=for-the-badge&logo=github&logoColor=00BFFF" />
+</a>
 
-  <p style="margin-top:8px;color:#94c8ff;font-size:12px">© SAITEJA K — Crafted for recruiters & collaborators • Optimized for GitHub Dark Theme</p>
+</div>
+
+<br/>
+
+<!-- ============ QUOTE ============ -->
+<div align="center">
+
+> "Build systems that can explain themselves — trust is the real product."
+
+</div>
+
+<br/>
+
+<!-- ============ 19. PROFESSIONAL FOOTER ============ -->
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=SAITEJA0217&label=Profile%20Views&color=00BFFF&style=flat-square" />
+
+<br/><br/>
+
+<sub>Designed &amp; Built by <b>Saiteja Reddy Karka</b></sub>
+
 </div>
