@@ -1,289 +1,3 @@
-```yaml
-name=.github/workflows/metrics.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/metrics.yml
-name: GitHub Metrics
-on:
-  schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: SAITEJA0217
-          template: classic
-          base_header: 0
-          base_activity: 1
-          base_community: 0
-          base_repositories: 0
-          base_metadata: 0
-          config_timezone: Asia/Kolkata
-          output_action: commit
-          commits_authoring: SAITEJA0217
-
-      - name: Commit metrics
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update metrics'
-          file_pattern: github-metrics.svg
-```
-
-```yaml
-name=.github/workflows/snake-animation.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/snake-animation.yml
-name: Contribution Snake
-on:
-  schedule:
-    - cron: '0 0 * * 0'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: SAITEJA0217
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg
-
-      - name: Push to output branch
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake-artifacts
-          path: dist/
-
-      - name: Deploy to output branch
-        uses: peter-evans/push-to-another-repository@v1
-        with:
-          repository: SAITEJA0217/SAITEJA0217
-          branch: output
-          directory: dist
-          commit-message: 'chore: update snake animation'
-```
-
-```yaml
-name=.github/workflows/activity-graph.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/activity-graph.yml
-name: GitHub Activity Graph
-on:
-  schedule:
-    - cron: '0 2 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate activity graph
-        run: |
-          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=SAITEJA0217&theme=react-dark&bg_color=050816&color=00BFFF&line=38BDF8&point=F8FAFC&area=true&area_color=00BFFF" \
-          -o graph.svg
-
-      - name: Commit graph
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update activity graph'
-          file_pattern: graph.svg
-```
-
-```yaml
-name=.github/workflows/readme-stats.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/readme-stats.yml
-name: GitHub Readme Stats
-on:
-  schedule:
-    - cron: '0 1 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Update stats cache
-        run: |
-          mkdir -p assets/stats
-          curl -s "https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=react&bg_color=050816&title_color=00BFFF&icon_color=38BDF8&text_color=F8FAFC&border_color=123a5e" \
-          -o assets/stats/github-stats.svg
-          
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=react&bg_color=050816&title_color=00BFFF&text_color=F8FAFC&border_color=123a5e" \
-          -o assets/stats/top-langs.svg
-
-      - name: Commit stats
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update readme stats'
-          file_pattern: assets/stats/
-```
-
-```yaml
-name=.github/workflows/github-trophy.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/github-trophy.yml
-name: GitHub Trophy
-on:
-  schedule:
-    - cron: '0 3 * * 0'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate trophy
-        run: |
-          mkdir -p assets/trophy
-          curl -s "https://github-profile-trophy.vercel.app/?username=SAITEJA0217&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" \
-          -o assets/trophy/trophy.svg
-
-      - name: Commit trophy
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update github trophy'
-          file_pattern: assets/trophy/
-```
-
-```yaml
-name=.github/workflows/visitor-counter.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/visitor-counter.yml
-name: Visitor Counter
-on:
-  schedule:
-    - cron: '0 4 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Update visitor counter
-        run: |
-          mkdir -p assets/counter
-          curl -s "https://komarev.com/ghpvc/?username=SAITEJA0217&label=Profile%20Views&color=00BFFF&style=flat-square" \
-          -o assets/counter/views.svg
-
-      - name: Commit counter
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update visitor counter'
-          file_pattern: assets/counter/
-```
-
-```yaml
-name=.github/workflows/waka-time.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/waka-time.yml
-name: WakaTime Stats
-on:
-  schedule:
-    - cron: '0 5 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Update WakaTime stats
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHOW_TITLE: true
-          SHOW_PROJECTS: false
-          SHOW_OS: true
-          SHOW_EDITORS: true
-          SHOW_LANGUAGE_PER_REPO: false
-
-      - name: Commit WakaTime
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update wakatime stats'
-          file_pattern: README.md
-```
-
-```yaml
-name=.github/workflows/latest-blog-posts.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/latest-blog-posts.yml
-name: Latest Blog Posts
-on:
-  schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Update blog posts
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          comment_tag_name: BLOG
-          feed_list: "https://your-blog-rss-feed-url"
-          max_post_count: 5
-          template: "- [$title]($url)"
-          date_format: "%b %d, %Y"
-
-      - name: Commit blog posts
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update blog posts'
-          file_pattern: README.md
-```
-
-```yaml
-name=.github/workflows/latest-repositories.yml url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/.github/workflows/latest-repositories.yml
-name: Latest Repositories
-on:
-  schedule:
-    - cron: '0 7 * * 1'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Generate latest repos
-        run: |
-          mkdir -p assets/repos
-          python -c "
-          import urllib.request
-          import json
-          
-          url = 'https://api.github.com/users/SAITEJA0217/repos?sort=updated&per_page=5'
-          with urllib.request.urlopen(url) as response:
-              repos = json.loads(response.read())
-              
-          with open('assets/repos/latest.json', 'w') as f:
-              json.dump(repos, f, indent=2)
-          "
-
-      - name: Commit repos data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update latest repositories'
-          file_pattern: assets/repos/
-```
-
-```markdown name=README.md url=https://github.com/SAITEJA0217/SAITEJA0217/blob/main/README.md
 <!--
   ============================================================
   SAITEJA REDDY KARKA — GITHUB PROFILE README
@@ -294,11 +8,11 @@ jobs:
 <div align="center">
 
 <!-- ============ 1. CUSTOM SVG HERO BANNER ============ -->
-<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIyNjAiIHZpZXdCb3g9IjAgMCAxMDAwIDI2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAKPG1hc2sgaWQ9ImdyYWRpZW50LW1hc2siPjxyZWN0IGZpbGw9IndoaXRlIiB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIyNjAiLz48L21hc2s+Cjwvc3ZnPg==" width="100%" height="150" alt="Hero Banner" />
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIyNjAiIHZpZXdCb3g9IjAgMCAxMDAwIDI2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDUwODE2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBhMTEyOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZ2xvdzEiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjUwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEJGRkYiIHN0b3Atb3BhY2l0eT0iMC41NSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMEJGRkYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZ2xvdzIiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjUwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzOEJERjgiIHN0b3Atb3BhY2l0eT0iMC4zNSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOEJERjgiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idGV4dEdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Y4RkFGQyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3REQzRkMiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8ZmlsdGVyIGlkPSJibHVyMSI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMzUiLz48L2ZpbHRlcj4KICAgIDxmaWx0ZXIgaWQ9ImJsdXIyIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyNSIvPjwvZmlsdGVyPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjEwMDAiIGhlaWdodD0iMjYwIiBmaWxsPSJ1cmwoI2JnKSIvPgoKICA8Y2lyY2xlIGN4PSI4NjAiIGN5PSI2MCIgcj0iMTQwIiBmaWxsPSJ1cmwoI2dsb3cxKSIgZmlsdGVyPSJ1cmwoI2JsdXIxKSIvPgogIDxjaXJjbGUgY3g9IjEyMCIgY3k9IjIyMCIgcj0iMTIwIiBmaWxsPSJ1cmwoI2dsb3cyKSIgZmlsdGVyPSJ1cmwoI2JsdXIyKSIvPgoKICA8ZyBzdHJva2U9IiMxMjNhNWUiIHN0cm9rZS13aWR0aD0iMSIgb3BhY2l0eT0iMC41Ij4KICAgIDxsaW5lIHgxPSIwIiB5MT0iNDAiIHgyPSIxMDAwIiB5Mj0iNDAiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMjIwIiB4Mj0iMTAwMCIgeTI9IjIyMCIvPgogICAgPHBhdGggZD0iTTAsMTMwIEwyMDAsOTAgTDQwMCwxNTAgTDYwMCw4MCBMODAwLDE0MCBMMTAwMCwxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBmMmE0YSIvPgogIDwvZz4KCiAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iMi4yIiBmaWxsPSIjMzhCREY4Ii8+CiAgPGNpcmNsZSBjeD0iOTQwIiBjeT0iMjAwIiByPSIyLjIiIGZpbGw9IiMzOEJERjgiLz4KICA8Y2lyY2xlIGN4PSI1MDAiIGN5PSIzMCIgcj0iMS44IiBmaWxsPSIjN0REM0ZDIi8+CiAgPGNpcmNsZSBjeD0iMzAwIiBjeT0iMjMwIiByPSIxLjgiIGZpbGw9IiM3REQzRkMiLz4KICA8Y2lyY2xlIGN4PSI3MDAiIGN5PSIyMzAiIHI9IjEuOCIgZmlsbD0iIzdERDNGQyIvPgoKICA8cmVjdCB4PSI2MCIgeT0iNzAiIHdpZHRoPSI0IiBoZWlnaHQ9IjgwIiBmaWxsPSIjMDBCRkZGIi8+CiAgPHRleHQgeD0iODUiIHk9IjExOCIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSJ1cmwoI3RleHRHcmFkKSIgbGV0dGVyLXNwYWNpbmc9IjEiPgogICAgU2FpdGVqYSBSZWRkeSBLYXJrYQogIDwvdGV4dD4KICA8dGV4dCB4PSI4NiIgeT0iMTUwIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTciIGZpbGw9IiM3REQzRkMiIGxldHRlci1zcGFjaW5nPSIyIj4KICAgIEFJIEVOR0lORUVSICYjMTgzOyBGVUxMIFNUQUNLIERFVkVMT1BFUiAmIzE4MzsgQi5URUNIIEFJTUwKICA8L3RleHQ+CiAgPHRleHQgeD0iODYiIHk9IjE3OCIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBmaWxsPSIjOTRBM0I4IiBsZXR0ZXItc3BhY2luZz0iMSI+CiAgICBNYWxsYSBSZWRkeSBVbml2ZXJzaXR5ICYjODIyNjsgSHlkZXJhYmFkLCBJbmRpYQogIDwvdGV4dD4KCiAgPHJlY3QgeD0iNjAiIHk9IjIwMCIgd2lkdGg9Ijg4MCIgaGVpZ2h0PSIxIiBmaWxsPSIjMTIzYTVlIi8+Cjwvc3ZnPgo=" width="100%" alt="Saiteja Reddy Karka banner" />
 
 <!-- ============ 2. ANIMATED TYPING TEXT ============ -->
 <a href="https://github.com/SAITEJA0217">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=650&lines=Building+Agentic+AI+Systems;Brows;ing+LangGraph;Shipping+Full-Stack+Products;Researching+Browser+Agents" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=650&lines=Building+Agentic+AI+Systems;Browser+Automation+%7C+Form+Intelligence;AI+Engineer+%7C+Full+Stack+Developer;Open+to+Internships+%26+Research" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -483,12 +197,12 @@ Research &amp; flagship builds — **InternLink**, **Jarvis**, **FormPilot**, **
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=react&bg_color=050816&title_color=00BFFF&icon_color=38BDF8&text_color=F8FAFC&border_color=123a5e&hide_border=false&rank_icon=github" alt="GitHub Stats" width="45%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=react&bg_color=050816&title_color=00BFFF&text_color=F8FAFC&border_color=123a5e&hide_border=false" alt="Top Languages" width="45%" />
+<img src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=react&bg_color=050816&title_color=00BFFF&icon_color=38BDF8&text_color=F8FAFC&border_color=123a5e&hide_border=false&count_private=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=react&bg_color=050816&title_color=00BFFF&text_color=F8FAFC&border_color=123a5e&hide_border=false" width="38%" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SAITEJA0217&theme=react&background=050816&stroke=123a5e&ring=00BFFF&fire=38BDF8&currStreakLabel=F8FAFC&sideLabels=F8FAFC&dates=94A3B8" alt="GitHub Streak" width="90%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SAITEJA0217&theme=react&background=050816&stroke=123a5e&ring=00BFFF&fire=38BDF8&currStreakLabel=F8FAFC&sideLabels=F8FAFC&dates=94A3B8&border=123a5e" width="90%" />
 
 </div>
 
@@ -499,7 +213,7 @@ Research &amp; flagship builds — **InternLink**, **Jarvis**, **FormPilot**, **
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAITEJA0217&theme=react-dark&bg_color=050816&color=00BFFF&line=38BDF8&point=F8FAFC&area=true&area_color=00BFFF&hide_border=true" alt="Activity Graph" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAITEJA0217&theme=react-dark&bg_color=050816&color=00BFFF&line=38BDF8&point=F8FAFC&area=true&area_color=00BFFF&hide_border=true" width="95%" />
 
 </div>
 
@@ -508,6 +222,10 @@ Research &amp; flagship builds — **InternLink**, **Jarvis**, **FormPilot**, **
 <!-- ============ 10. GITHUB SNAKE ANIMATION ============ -->
 ## <img src="https://img.shields.io/badge/-Contribution%20Snake-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
+<!--
+  Requires a scheduled GitHub Actions workflow in this profile repo
+  (Platane/snk) that generates and commits the SVG output below.
+-->
 <div align="center">
 
 <picture>
@@ -524,9 +242,12 @@ Research &amp; flagship builds — **InternLink**, **Jarvis**, **FormPilot**, **
 
 <div align="center">
 
-<img src="https://metrics.lecoq.io/SAITEJA0217?template=classic&base.header=0&base.activity=1&base.community=0&base.repositories=0&base.metadata=0&config.timezone=Asia%2FKolkata" alt="GitHub Metrics" width="95%" />
+<img src="https://metrics.lecoq.io/SAITEJA0217?template=classic&base.header=0&base.activity=1&base.community=0&base.repositories=0&base.metadata=0&config.timezone=Asia%2FKolkata" width="95%" />
 
 </div>
+
+> Metrics render via the community-maintained `lowlighter/metrics` service. If the widget is temporarily
+> unavailable, the stats and streak widgets above remain fully functional.
 
 <br/>
 
@@ -535,7 +256,7 @@ Research &amp; flagship builds — **InternLink**, **Jarvis**, **FormPilot**, **
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=SAITEJA0217&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub Trophy" width="95%" />
+<img src="https://github-profile-trophy.vercel.app/?username=SAITEJA0217&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" />
 
 </div>
 
@@ -623,23 +344,7 @@ personalized, data-driven recommendations.
 
 <br/>
 
-<!-- ============ 15. WAKATIME STATS ============ -->
-## <img src="https://img.shields.io/badge/-WakaTime%20Stats-00BFFF?style=flat-square&labelColor=050816" height="26"/>
-
-<!-- WAKATIME:START -->
-<!-- WAKATIME:END -->
-
-<br/>
-
-<!-- ============ 16. LATEST BLOG POSTS ============ -->
-## <img src="https://img.shields.io/badge/-Latest%20Blog%20Posts-00BFFF?style=flat-square&labelColor=050816" height="26"/>
-
-<!-- BLOG:START -->
-<!-- BLOG:END -->
-
-<br/>
-
-<!-- ============ 17. RESEARCH INTERESTS ============ -->
+<!-- ============ RESEARCH INTERESTS ============ -->
 ## <img src="https://img.shields.io/badge/-Research%20Interests-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
 <div align="center">
@@ -655,7 +360,7 @@ personalized, data-driven recommendations.
 
 <br/>
 
-<!-- ============ 18. CERTIFICATIONS ============ -->
+<!-- ============ 15. CERTIFICATIONS ============ -->
 ## <img src="https://img.shields.io/badge/-Certifications-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
 <table align="center">
@@ -683,7 +388,7 @@ personalized, data-driven recommendations.
 
 <br/>
 
-<!-- ============ 19. ACHIEVEMENTS ============ -->
+<!-- ============ 16. ACHIEVEMENTS ============ -->
 ## <img src="https://img.shields.io/badge/-Achievements-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
 <table align="center">
@@ -703,15 +408,7 @@ personalized, data-driven recommendations.
 
 <br/>
 
-<!-- ============ 20. LATEST REPOSITORIES ============ -->
-## <img src="https://img.shields.io/badge/-Latest%20Repositories-00BFFF?style=flat-square&labelColor=050816" height="26"/>
-
-<!-- REPOS:START -->
-<!-- REPOS:END -->
-
-<br/>
-
-<!-- ============ 21. RESUME ============ -->
+<!-- ============ 17. RESUME ============ -->
 ## <img src="https://img.shields.io/badge/-Resume-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
 <div align="center">
@@ -724,7 +421,7 @@ personalized, data-driven recommendations.
 
 <br/>
 
-<!-- ============ 22. CONTACT ============ -->
+<!-- ============ 18. CONTACT ============ -->
 ## <img src="https://img.shields.io/badge/-Contact-00BFFF?style=flat-square&labelColor=050816" height="26"/>
 
 <div align="center">
@@ -755,14 +452,13 @@ personalized, data-driven recommendations.
 
 <br/>
 
-<!-- ============ 23. PROFESSIONAL FOOTER ============ -->
+<!-- ============ 19. PROFESSIONAL FOOTER ============ -->
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=SAITEJA0217&label=Profile%20Views&color=00BFFF&style=flat-square" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=SAITEJA0217&label=Profile%20Views&color=00BFFF&style=flat-square" />
 
 <br/><br/>
 
 <sub>Designed &amp; Built by <b>Saiteja Reddy Karka</b></sub>
 
 </div>
-```
