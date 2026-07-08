@@ -1,16 +1,74 @@
-## Hi there 👋
+# Hi 👋 I'm Saiteja Reddy Karka
 
-<!--
-**SAITEJA0217/SAITEJA0217** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 AI & Full Stack Developer from Hyderabad
 
-Here are some ideas to get you started:
+🎓 B.Tech AI & ML Student
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💻 Building AI Products and SaaS Applications
+
+🌱 Currently Learning
+
+- Next.js
+- AI Agents
+- LangChain
+- RAG
+- System Design
+
+---
+
+## Tech Stack
+
+Frontend
+
+- React
+- Next.js
+- Tailwind
+- TypeScript
+
+Backend
+
+- Node.js
+- Express
+- PostgreSQL
+- Firebase
+- Supabase
+
+AI
+
+- OpenAI
+- HuggingFace
+- Python
+- LangChain
+
+Tools
+
+- Git
+- Docker
+- Vercel
+- Figma
+
+---
+
+## Featured Projects
+
+⭐ InternLink
+
+AI Internship Platform
+
+⭐ FormPilot
+
+Chrome Extension for Smart Form Filling
+
+⭐ BharatSkill
+
+AI Skill Recommendation Platform
+
+---
+
+## Connect
+
+LinkedIn
+
+Portfolio
+
+Email
