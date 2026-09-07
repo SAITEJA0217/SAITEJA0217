@@ -5,9 +5,11 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:111827,100:0b0f19&height=120&section=header&text=Saiteja%20Reddy%20Karka&fontSize=42&fontColor=e5e7eb&fontAlignY=50&desc=AI%20Engineer%20%C2%B7%20Full%20Stack%20Developer%20%C2%B7%20Browser%20Agent%20Researcher&descSize=16&descAlignY=78&descColor=93c5fd" width="100%" alt="Saiteja Reddy Karka — AI Engineer · Full Stack Developer · Browser Agent Researcher" />
+<h1>Saiteja Reddy Karka</h1>
 
-<br/>
+<p><strong>AI Engineer &nbsp;·&nbsp; Full Stack Developer &nbsp;·&nbsp; Browser Agent Researcher</strong></p>
+
+<p><sub>Final-year B.Tech, AI &amp; ML · Malla Reddy University · Hyderabad, India</sub></p>
 
 **I build AI systems that can explain themselves — and ship them as real products.**
 
@@ -26,7 +28,7 @@
 
 Final-year B.Tech (AI & ML) student at Malla Reddy University, Hyderabad. I work at the intersection of **LLM-driven agents** and **full-stack product engineering**: designing systems where a model's decision is grounded in evidence, scored for confidence, and correctable by the user — then building the interface, backend and deployment around it.
 
-Current focus is **trustworthy browser agents**. My research project, [FormPilot](#formpilot), treats web form automation as a reasoning problem (field dependencies, evidence grounding, per-field confidence) rather than a scripting problem, and is being written up for IEEE submission. On the product side I founded **InternLink**, an AI-assisted internship platform with student and employer dashboards.
+Current focus is **trustworthy browser agents**. My research project, [FormPilot](#-formpilot--trustworthy-browser-agent-for-web-form-automation), treats web form automation as a reasoning problem (field dependencies, evidence grounding, per-field confidence) rather than a scripting problem, and is being written up for IEEE submission. On the product side I founded **InternLink**, an AI-assisted internship platform with student and employer dashboards.
 
 <br/>
 
@@ -60,8 +62,6 @@ React / Next.js front-ends, FastAPI & Node back-ends, Firebase infrastructure, G
 ## Featured projects
 
 <!-- ───────────── FormPilot ───────────── -->
-<a name="formpilot"></a>
-
 ### 🧭 FormPilot — Trustworthy browser agent for web form automation
 
 **A Chrome extension that reads a web form, reasons about it, and fills it — while telling you how confident it is in every field.**
@@ -159,23 +159,9 @@ Defined the research framing (dependency-aware reasoning, evidence grounding, co
 
 <br/>
 
-## GitHub activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=github_dark&hide_border=true&bg_color=0b0f19&title_color=93c5fd&icon_color=60a5fa&text_color=cbd5e1&count_private=true" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=github_dark&hide_border=true&bg_color=0b0f19&title_color=93c5fd&text_color=cbd5e1&langs_count=6" height="165" alt="Top languages" />
-
-</div>
-
-<br/>
-
 ## Connect
 
 **Interested in AI agents, trustworthy AI, or building intelligent products? Let's talk.**
 
 [Portfolio](https://saiteja-space.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/saiteja-reddy-karka/) · [karkasaiteja4@gmail.com](mailto:karkasaiteja4@gmail.com) · [GitHub](https://github.com/SAITEJA0217)
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:111827,100:0b0f19&height=40&section=footer" width="100%" alt="" />
-</div>
