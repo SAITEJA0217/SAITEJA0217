@@ -1,832 +1,181 @@
-<!-- ========================= -->
-<!--          BANNER           -->
-<!-- ========================= -->
+<!-- ─────────────────────────────────────────────────────────────
+     Saiteja Reddy Karka · GitHub profile README
+     Design: minimal / dark / project-first.
+     ───────────────────────────────────────────────────────────── -->
 
-<p align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=Saiteja%20Reddy%20Karka&fontSize=50&fontAlignY=40&animation=fadeIn&fontColor=ffffff&desc=AI%20Engineer%20•%20Full%20Stack%20Developer%20•%20Researcher&descAlignY=60"/>
-</p>
+<div align="center">
 
-<h1 align="center">Hi 👋 I'm Saiteja Reddy Karka</h1>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:111827,100:0b0f19&height=120&section=header&text=Saiteja%20Reddy%20Karka&fontSize=42&fontColor=e5e7eb&fontAlignY=50&desc=AI%20Engineer%20%C2%B7%20Full%20Stack%20Developer%20%C2%B7%20Browser%20Agent%20Researcher&descSize=16&descAlignY=78&descColor=93c5fd" width="100%" alt="Saiteja Reddy Karka — AI Engineer · Full Stack Developer · Browser Agent Researcher" />
 
-<h3 align="center">
-AI Engineer • Full Stack Developer • Browser Agent Researcher
-</h3>
+<br/>
 
-<p align="center">
+**I build AI systems that can explain themselves — and ship them as real products.**
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=3B82F6&center=true&vCenter=true&width=900&lines=Building+Trustworthy+AI+Systems;Browser+Agent+Research;IEEE+Research+Author;Full+Stack+Developer;LLM+Engineer;AI+Automation;Next.js+Developer;FastAPI+Developer;Always+Building+Something+New"/>
+<br/>
 
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-saiteja--space.netlify.app-0f172a?style=flat-square&logo=netlify&logoColor=60a5fa)](https://saiteja-space.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-saiteja--reddy--karka-0f172a?style=flat-square&logo=linkedin&logoColor=60a5fa)](https://www.linkedin.com/in/saiteja-reddy-karka/)
+[![Email](https://img.shields.io/badge/Email-karkasaiteja4%40gmail.com-0f172a?style=flat-square&logo=gmail&logoColor=60a5fa)](mailto:karkasaiteja4@gmail.com)
+[![FormPilot](https://img.shields.io/badge/Research-FormPilot%20%E2%80%94%20IEEE%20paper%20in%20progress-0f172a?style=flat-square&logo=googlescholar&logoColor=a78bfa)](#-research--trustworthy-browser-agents)
 
----
+</div>
 
-# 🚀 About Me
+<br/>
 
-I'm **Saiteja Reddy Karka**, a Final-Year **B.Tech (Artificial Intelligence & Machine Learning)** student at **Malla Reddy University**.
+## About
 
-I enjoy building intelligent systems that combine **Artificial Intelligence**, **Large Language Models**, **Browser Agents**, and **Modern Web Technologies** into products that solve real-world problems.
+Final-year B.Tech (AI & ML) student at Malla Reddy University, Hyderabad. I work at the intersection of **LLM-driven agents** and **full-stack product engineering**: designing systems where a model's decision is grounded in evidence, scored for confidence, and correctable by the user — then building the interface, backend and deployment around it.
 
-My work focuses on making AI systems **trustworthy**, **explainable**, and **production-ready** instead of just building demos.
+Current focus is **trustworthy browser agents**. My research project, [FormPilot](#formpilot), treats web form automation as a reasoning problem (field dependencies, evidence grounding, per-field confidence) rather than a scripting problem, and is being written up for IEEE submission. On the product side I founded **InternLink**, an AI-assisted internship platform with student and employer dashboards.
 
-Currently, I'm developing **FormPilot**, a browser agent for trustworthy web form automation while preparing an **IEEE research publication**.
+<br/>
 
----
-
-# 💡 What I Believe
-
-> **"Great AI isn't defined by intelligence alone—it's defined by the trust it earns."**
-
----
-
-# 🎯 Current Focus
-
-- 🤖 Browser Agents
-- 🧠 Large Language Models
-- 🔍 Retrieval-Augmented Generation (RAG)
-- ⚡ AI Automation
-- 📄 IEEE Research
-- 🌐 Full Stack AI Products
-- ☁️ Cloud Deployment
-- 🚀 Startup Development
-- 🌍 Open Source
-
----
-
-# 🔬 Research Interests
-
-- Trustworthy AI
-- Browser Agents
-- Human-AI Interaction
-- AI Automation
-- Multi-Agent Systems
-- Semantic Reasoning
-- Explainable AI
-- Agentic Workflows
-- AI Product Engineering
-
----
-
-# 📍 Journey
-
-```text
-2023
-│
-├── Python
-├── Data Structures
-├── Machine Learning
-└── AI Foundations
-
-        ↓
-
-2024
-│
-├── React
-├── Next.js
-├── Firebase
-├── APIs
-└── Full Stack Development
-
-        ↓
-
-2025
-│
-├── AI SaaS Products
-├── Gemini API
-├── RAG
-├── LLM Applications
-└── Startup Building
-
-        ↓
-
-2026
-│
-├── Browser Agents
-├── IEEE Research
-├── FormPilot
-├── AI Systems
-└── Open Source
-```
-
----
-
-# 📊 Quick Facts
-
-```yaml
-Name: Saiteja Reddy Karka
-
-Role: AI Engineer
-
-Education:
-  B.Tech
-  Artificial Intelligence & Machine Learning
-
-Location:
-  Hyderabad, Telangana, India
-
-Current Research:
-  Browser Agents
-  Trustworthy AI
-
-Currently Building:
-  - FormPilot
-  - InternLink
-  - BharatSkill
-  - Jarvis
-
-Looking For:
-  AI Internship
-  AI Research
-  Open Source Collaboration
-```
-
----
-
-# 🛠 Tech Stack
-
-## 💻 Languages
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=python"/>
-
-<img src="https://skillicons.dev/icons?i=cpp"/>
-
-<img src="https://skillicons.dev/icons?i=java"/>
-
-<img src="https://skillicons.dev/icons?i=javascript"/>
-
-<img src="https://skillicons.dev/icons?i=typescript"/>
-
-</p>
-
----
-
-## 🎨 Frontend
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=react"/>
-
-<img src="https://skillicons.dev/icons?i=nextjs"/>
-
-<img src="https://skillicons.dev/icons?i=tailwind"/>
-
-<img src="https://skillicons.dev/icons?i=html"/>
-
-<img src="https://skillicons.dev/icons?i=css"/>
-
-<img src="https://skillicons.dev/icons?i=vite"/>
-
-</p>
-
----
-
-## ⚙️ Backend
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=nodejs"/>
-
-<img src="https://skillicons.dev/icons?i=express"/>
-
-<img src="https://skillicons.dev/icons?i=fastapi"/>
-
-</p>
-
----
-
-## 🤖 Artificial Intelligence
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=tensorflow"/>
-
-<img src="https://skillicons.dev/icons?i=pytorch"/>
-
-</p>
-
-### AI Technologies
-
-- Gemini API
-- OpenAI API
-- LangChain
-- LangGraph
-- RAG
-- Prompt Engineering
-- AI Agents
-- AI Automation
-- Vector Databases
-
----
-
-## 🗄 Databases
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=firebase"/>
-
-<img src="https://skillicons.dev/icons?i=mongodb"/>
-
-<img src="https://skillicons.dev/icons?i=mysql"/>
-
-<img src="https://skillicons.dev/icons?i=supabase"/>
-
-</p>
-
----
-
-## ☁️ Cloud & DevOps
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=docker"/>
-
-<img src="https://skillicons.dev/icons?i=git"/>
-
-<img src="https://skillicons.dev/icons?i=github"/>
-
-<img src="https://skillicons.dev/icons?i=vercel"/>
-
-<img src="https://skillicons.dev/icons?i=netlify"/>
-
-</p>
-
----
-
-## 🎨 Design & Tools
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=figma"/>
-
-<img src="https://skillicons.dev/icons?i=postman"/>
-
-<img src="https://skillicons.dev/icons?i=vscode"/>
-
-<img src="https://skillicons.dev/icons?i=linux"/>
-
-</p>
-
----
-
-# ⚡ Core Expertise
-
-| Domain | Level |
-|---------|-------|
-| Artificial Intelligence | ⭐⭐⭐⭐⭐ |
-| Full Stack Development | ⭐⭐⭐⭐⭐ |
-| Browser Agents | ⭐⭐⭐⭐⭐ |
-| LLM Applications | ⭐⭐⭐⭐⭐ |
-| React / Next.js | ⭐⭐⭐⭐⭐ |
-| FastAPI | ⭐⭐⭐⭐☆ |
-| Firebase | ⭐⭐⭐⭐⭐ |
-| RAG Systems | ⭐⭐⭐⭐☆ |
-| Docker | ⭐⭐⭐⭐☆ |
-| System Design | ⭐⭐⭐⭐☆ |
-
----
-
-<p align="center">
-
-### ⭐ Turning Research into Real Products ⭐
-
-</p>
-<!-- ======================================== -->
-<!--      FEATURED PROJECTS & EXPERIENCE      -->
-<!-- ======================================== -->
-
-# 🚀 Featured Projects
+## What I build
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%" valign="top">
 
-## 🤖 FormPilot
-
-### Trustworthy Browser Agent for Web Form Automation
-
-A browser agent that intelligently understands and fills web forms using semantic reasoning, evidence grounding, and confidence-aware decision making.
-
-### Highlights
-
-- 🤖 AI Browser Agent
-- 🧠 Dependency-Aware Semantic Reasoning
-- 📊 Per-Field Confidence Scoring
-- 🔄 Correction-Based Learning Loop
-- 🌐 Chrome Extension (Manifest V3)
-- 🔐 Secure User Profiles
-- 📄 IEEE Research Project
-
-### Tech Stack
-
-`Gemini API`
-`Firebase`
-`Firestore`
-`JavaScript`
-`Chrome Extension`
-`AI Agents`
+**🧭 Agents & automation**<br/>
+Browser agents (Chrome MV3), LLM tool-use, agentic workflows, correction-based learning loops.
 
 </td>
+<td width="33%" valign="top">
 
-<td width="50%">
+**🔍 Trustworthy AI**<br/>
+Evidence grounding, confidence-aware decisions, explainable outputs, human-in-the-loop feedback.
 
-## 🌐 InternLink
+</td>
+<td width="33%" valign="top">
 
-### AI-Powered Internship Platform
-
-A modern internship ecosystem connecting students with recruiters using AI-powered matching and analytics.
-
-### Features
-
-- Student Dashboard
-- Employer Dashboard
-- AI Resume Matching
-- Certificate Generation
-- Authentication
-- Admin Portal
-- Analytics Dashboard
-
-### Tech Stack
-
-`Next.js`
-`React`
-`Firebase`
-`Tailwind CSS`
-`Gemini API`
+**⚡ Full-stack AI products**<br/>
+React / Next.js front-ends, FastAPI & Node back-ends, Firebase infrastructure, Gemini / OpenAI integration.
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-<table>
-<tr>
+## Featured projects
 
-<td width="50%">
+<!-- ───────────── FormPilot ───────────── -->
+<a name="formpilot"></a>
 
-## 🤖 Jarvis
+### 🧭 FormPilot — Trustworthy browser agent for web form automation
 
-### Personal AI Assistant
+**A Chrome extension that reads a web form, reasons about it, and fills it — while telling you how confident it is in every field.**
 
-An AI-powered assistant capable of handling conversations, automation, productivity, and intelligent workflows.
+| | |
+|---|---|
+| **Problem** | Form-filling automation is brittle: it ignores dependencies between fields, hallucinates values with no source, and gives the user no way to know which fields to double-check. |
+| **What I built** | A Manifest V3 Chrome extension backed by the Gemini API and Firebase Firestore. It stores a secure user profile, performs dependency-aware semantic reasoning over the form, grounds each value in profile evidence, assigns a per-field confidence score, and learns from user corrections through a feedback loop. |
+| **Research contribution** | Framing form automation as *dependency-aware semantic reasoning + evidence grounding + confidence-aware decision-making*, with human corrections as a learning signal. Being written up as an IEEE paper (in progress, targeting 2026 submission). |
+| **Engineering implementation** | Extension architecture (MV3), form/DOM understanding, LLM prompting for field reasoning, confidence scoring surfaced in the UI, Firestore-backed profiles and correction history. |
+| **Stack** | `Gemini API` `Chrome Extension (MV3)` `TypeScript / JavaScript` `Firebase Firestore` |
+| **Status** | 🟡 Active development · IEEE paper in progress |
+| **Links** | [Repository](https://github.com/SAITEJA0217/formpilot) |
 
-### Features
+<br/>
 
-- AI Chat
-- Automation
-- Code Generation
-- Smart Notes
-- Productivity
-- API Integrations
+<!-- ───────────── InternLink ───────────── -->
 
-### Stack
+### 🌐 InternLink — AI-assisted internship platform
 
-`Python`
+**A two-sided platform where students find internships and employers find candidates, with AI resume matching in the middle.**
 
-`LLMs`
+| | |
+|---|---|
+| **Problem** | Students and recruiters both spend hours on manual screening; most internship portals are static listings with no matching, tracking or analytics. |
+| **What I built** | Student dashboard, employer dashboard and admin portal; authentication; AI resume-to-role matching via the Gemini API; certificate generation; analytics dashboard. Designed the product, built front-end and back-end, and set up the Firebase architecture and deployment. |
+| **Architecture** | Next.js / React front-end with Tailwind CSS · Firebase for auth, data and hosting · Gemini API for matching. Public site built with Vite + React + Tailwind. |
+| **Stack** | `Next.js` `React` `TypeScript` `Tailwind CSS` `Firebase` `Gemini API` |
+| **Status** | 🟡 In development — launch site ready, platform pre-launch |
+| **Links** | [Website repo](https://github.com/SAITEJA0217/internlink-website) · [Launch page](https://github.com/SAITEJA0217/internlink-comming-soon) |
 
-`FastAPI`
+<br/>
 
-`Automation`
+### More projects
 
-</td>
+| Project | What it does | Stack | Repo |
+|---|---|---|---|
+| **BharatSkill** | AI career guidance — career mapping, resume analysis, skill assessment, personalised learning paths | React · Node.js · MongoDB · LLM | [bharatskill-graph-ai](https://github.com/SAITEJA0217/bharatskill-graph-ai) |
+| **Resume Tailor AI** | Tailors a resume to a job description using the OpenAI API | React · Firebase · OpenAI API | [resume-tailor-ai](https://github.com/SAITEJA0217/resume-tailor-ai) |
+| **Jarvis** | Personal AI assistant — conversational interface, desktop automation and productivity workflows (early stage) | Python · FastAPI · LLMs | [jarvis](https://github.com/SAITEJA0217/jarvis) |
 
-<td width="50%">
+<br/>
 
-## 🇮🇳 BharatSkill
+## 🔬 Research · Trustworthy browser agents
 
-### AI Career Guidance Platform
+**Working title:** *FormPilot: Trustworthy Browser Agent for Web Form Automation through Dependency-Aware Semantic Reasoning, Evidence Grounding, and Confidence-Aware Decision-Making*
 
-Helping students discover career paths through AI recommendations and personalized skill analysis.
+| | |
+|---|---|
+| **Research problem** | LLM-based browser agents act on web pages with no explicit account of *why* a value was chosen, *what* it was grounded in, or *how sure* the agent is — which makes them hard to trust on consequential forms. |
+| **Direction** | Make each agent decision auditable: model dependencies between fields, ground values in user-provided evidence, attach calibrated per-field confidence, and use human corrections as a learning signal. |
+| **Core concepts** | Dependency-aware semantic reasoning · Evidence grounding · Confidence-aware decision-making · Human-feedback learning · Explainable agent behaviour |
+| **Status** | 🟡 IEEE Research — In Progress (target submission: 2026) |
+| **Broader interests** | Agentic workflows · Multi-agent systems · Human–AI interaction · RAG for grounded generation |
 
-### Features
+<br/>
 
-- Career Mapping
-- Resume Analysis
-- Skill Assessment
-- AI Recommendations
-- Learning Paths
+## Technical stack
 
-### Stack
+Ordered by depth of use in shipped projects, not alphabetically.
 
-`React`
+| Area | Technology → how I use it |
+|---|---|
+| **AI & LLM** | **Gemini API** — agent reasoning in FormPilot, matching in InternLink · **OpenAI API** — resume tailoring · **LangChain / LangGraph** — agent and workflow orchestration · **RAG & vector databases** — grounded retrieval for LLM apps · **Prompt engineering** — structured, evidence-grounded outputs |
+| **Frontend** | **React / Next.js** — all product UIs (InternLink, BharatSkill, Resume Tailor) · **TypeScript** — primary language across recent repos · **Tailwind CSS** — UI systems · **Vite** — InternLink website · **Chrome Extension (MV3)** — FormPilot |
+| **Backend** | **FastAPI** — Python APIs and AI services · **Node.js / Express** — BharatSkill backend · **Python** — agents, scripting, ML |
+| **Databases & cloud** | **Firebase (Auth · Firestore · Hosting)** — primary infrastructure for FormPilot and InternLink · **MongoDB** — BharatSkill · **MySQL / Supabase** — relational projects · **Vercel / Netlify** — deployment · **Docker** — containerised services |
+| **ML foundations** | **TensorFlow / PyTorch** — coursework and experiments |
+| **Tools** | Git / GitHub · Postman · Figma · Linux · VS Code |
 
-`Node.js`
+<br/>
 
-`MongoDB`
+## Experience
 
-`AI`
+**Founder & Full Stack Developer — InternLink**<br/>
+Designed the product and its student/employer/admin roles; architected the Firebase data and auth layer; implemented AI resume matching with the Gemini API; built certificate generation and analytics dashboards; deployed the public launch site.
 
-</td>
+**AI Researcher / Engineer — FormPilot (IEEE research project)**<br/>
+Defined the research framing (dependency-aware reasoning, evidence grounding, confidence-aware decisions); implemented the Chrome MV3 agent, per-field confidence scoring and a correction-based feedback loop; preparing the manuscript for IEEE submission.
 
-</tr>
+**Member — Venture Launcher**
 
-</table>
+**Certifications** · Oracle OCI Foundations · IBM AI Fundamentals · Machine Learning (Coursera) · Google Generative AI (in progress)
 
----
+<br/>
 
-# 💼 Experience
+## Current focus
 
-## 🚀 Founder & Full Stack Developer
+- 🧭 Shipping **FormPilot** and finishing the IEEE manuscript on trustworthy browser agents
+- 🌐 Taking **InternLink** from launch site to live platform
+- 🤖 Multi-agent systems and agentic workflows with **LangGraph**; RAG for grounded generation
+- ☁️ Scalable AI deployment — **Docker**, cloud infrastructure
+- 🌍 Open-source contributions in the AI-agent tooling space
+- 🎯 Open to **AI/ML and software engineering internships** and research collaborations
 
-### InternLink
+<br/>
 
-Building an AI-powered internship platform focused on connecting students with opportunities using intelligent matching, modern web technologies, and scalable cloud infrastructure.
+## GitHub activity
 
-### Responsibilities
+<div align="center">
 
-- Product Design
-- Frontend Development
-- Backend Development
-- Authentication
-- Firebase Architecture
-- AI Integration
-- Deployment
+<img src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=github_dark&hide_border=true&bg_color=0b0f19&title_color=93c5fd&icon_color=60a5fa&text_color=cbd5e1&count_private=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=github_dark&hide_border=true&bg_color=0b0f19&title_color=93c5fd&text_color=cbd5e1&langs_count=6" height="165" alt="Top languages" />
 
----
+</div>
 
-## 🧠 AI Researcher
+<br/>
 
-### FormPilot
+## Connect
 
-Working on trustworthy browser agents capable of understanding and completing web forms autonomously.
+**Interested in AI agents, trustworthy AI, or building intelligent products? Let's talk.**
 
-Research Areas
+[Portfolio](https://saiteja-space.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/saiteja-reddy-karka/) · [karkasaiteja4@gmail.com](mailto:karkasaiteja4@gmail.com) · [GitHub](https://github.com/SAITEJA0217)
 
-- Browser Agents
-
-- Explainable AI
-
-- Semantic Reasoning
-
-- Human-AI Interaction
-
-- Agentic Workflows
-
-- Confidence Estimation
-
----
-
-# 🔬 Research
-
-## 📄 FormPilot
-
-### Trustworthy Browser Agent for Web Form Automation through Dependency-Aware Semantic Reasoning, Evidence Grounding, and Confidence-Aware Decision-Making
-
-Research Focus
-
-- Browser Agents
-
-- Explainable AI
-
-- AI Automation
-
-- Trustworthy AI
-
-- Human Feedback Learning
-
-- Autonomous Web Navigation
-
-Status
-
-🟢 IEEE Paper In Progress
-
-Expected Submission
-
-2026
-
----
-
-# 🎯 Research Interests
-
-- Artificial Intelligence
-
-- Large Language Models
-
-- Agentic AI
-
-- Browser Agents
-
-- RAG Systems
-
-- Human-AI Interaction
-
-- Explainable AI
-
-- Multi-Agent Systems
-
-- Intelligent Automation
-
----
-
-# 🏆 Achievements
-
-🏅 GitHub Pro Member
-
-🦈 Pull Shark Achievement
-
-🚀 Founder of InternLink
-
-📄 IEEE Research (In Progress)
-
-🎓 Final Year AIML Student
-
-💻 Full Stack AI Developer
-
-🌍 Open Source Contributor
-
-🤝 Member of Venture Launcher
-
----
-
-# 📚 Publications
-
-| Paper | Status |
-|---------|----------|
-| FormPilot | 🟢 IEEE (In Progress) |
-
-Future Publications
-
-- Browser Agents
-
-- Trustworthy AI
-
-- AI Automation
-
-- Agentic Systems
-
----
-
-# 🎓 Certifications
-
-| Certification | Platform | Status |
-|----------------|----------|---------|
-| Oracle OCI Foundations | Oracle | ✅ |
-| AI Fundamentals | IBM | ✅ |
-| Full Stack Development | Various | ✅ |
-| Machine Learning | Coursera | ✅ |
-| Generative AI | Google | 🔄 |
-
----
-
-# 🌍 Open Source
-
-Currently Contributing To
-
-- Venture Launcher
-
-- Open Source AI Projects
-
-- Browser Automation
-
-- Full Stack Applications
-
-Interested In
-
-- LangChain
-
-- LangGraph
-
-- Hugging Face
-
-- FastAPI
-
-- React
-
-- Next.js
-
----
-
-# 📈 2026 Goals
-
-✅ Publish IEEE Paper
-
-⬜ Build SaaS used by 10K+ users
-
-⬜ Contribute to major Open Source projects
-
-⬜ Secure AI Internship
-
-⬜ Publish Research Blog
-
-⬜ Learn Kubernetes
-
-⬜ Learn AWS
-
-⬜ Build Multi-Agent Framework
-
-⬜ Reach 500+ GitHub Contributions
-
-⬜ Mentor Students
-
----
-
-# 🌟 Featured Skills
-
-```text
-Artificial Intelligence        ████████████
-
-LLM Engineering                ██████████
-
-Browser Agents                 ██████████
-
-React                          ███████████
-
-Next.js                        ██████████
-
-FastAPI                        █████████
-
-Firebase                       ███████████
-
-Docker                         ████████
-
-System Design                  █████████
-
-Research                        ██████████
-```
-
----
-
-# 💬 Favorite Quote
-
-> "Research creates possibilities. Engineering turns them into reality."
-
----
-
-<p align="center">
-
-## 🚀 Building AI Products That People Can Trust
-
-</p>
-<!-- ============================================== -->
-<!--           GITHUB ANALYTICS & CONTACT          -->
-<!-- ============================================== -->
-
-# 📊 GitHub Analytics
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SAITEJA0217&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=SAITEJA0217&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-# 📈 Most Used Languages
-
-<p align="center">
-
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAITEJA0217&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-# 📉 Contribution Graph
-
-<p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SAITEJA0217&theme=tokyo-night&hide_border=true"/>
-
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=SAITEJA0217&theme=tokyonight&no-frame=true&row=2&column=4"/>
-
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-
-</p>
-
----
-
-# 📌 GitHub Profile Summary
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SAITEJA0217&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SAITEJA0217&theme=tokyonight"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SAITEJA0217&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SAITEJA0217&theme=tokyonight"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SAITEJA0217&theme=tokyonight&utcOffset=5.5"/>
-
-</p>
-
----
-
-# 🚀 Currently Learning
-
-- 🤖 Multi-Agent AI Systems
-- 🧠 AI Agents with LangGraph
-- ⚡ FastAPI & Async Python
-- ☁️ AWS Cloud
-- 🐳 Docker & Kubernetes
-- 📊 Vector Databases
-- 🔍 Retrieval-Augmented Generation (RAG)
-- 🛡️ AI Safety & Trustworthy AI
-
----
-
-# 🌍 Open Source Goals
-
-- Contribute to LangChain
-- Contribute to FastAPI
-- Contribute to React ecosystem
-- Publish AI utilities
-- Build reusable AI components
-- Mentor beginner developers
-
----
-
-# 🎯 2026 Goals
-
-- 📄 Publish IEEE Research Paper
-- 🚀 Launch FormPilot
-- 🌐 Launch InternLink
-- 🧠 Build Production AI Agents
-- ⭐ Reach 1,000 GitHub Contributions
-- 💼 Secure AI/ML Internship
-- 🌍 Become an Active Open Source Contributor
-
----
-
-# 📬 Connect With Me
-
-<p align="center">
-
-<a href="https://saiteja-space.netlify.app/">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://linkedin.com/in/saiteja-reddy-karka">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:karkasaiteja4@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/SAITEJA0217">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</p>
-
----
-
-# 💡 Fun Facts
-
-- 💻 I enjoy turning research ideas into real-world products.
-- 🤖 I'm passionate about AI agents and browser automation.
-- 🚀 I love building SaaS products from scratch.
-- 📚 I believe clean architecture is as important as powerful models.
-- 🌱 I'm always learning and exploring new AI technologies.
-
----
-
-# 💬 Favorite Quote
-
-> **"Build intelligent systems that people can understand, trust, and rely on."**
-
----
-
-# ❤️ Thanks for Visiting
-
-<p align="center">
-
-⭐ If you like my work, consider following my journey and checking out my repositories!
-
-</p>
-
-<p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=120&section=footer"/>
-
-</p>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:111827,100:0b0f19&height=40&section=footer" width="100%" alt="" />
+</div>
